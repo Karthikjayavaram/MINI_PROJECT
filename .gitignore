@@ -1,0 +1,86 @@
+# ==============================
+# Python Cache & Compiled Files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Virtual Environments
+# ==============================
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==============================
+# Model Weights & Checkpoints
+# ==============================
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.joblib
+*.pkl
+checkpoints/
+models/
+saved_models/
+weights/
+
+# ==============================
+# Federated Learning Artifacts
+# ==============================
+client_models/
+server_models/
+aggregated_models/
+local_updates/
+global_updates/
+
+# ==============================
+# Datasets (DO NOT PUSH DATA)
+# ==============================
+data/
+datasets/
+raw_data/
+processed_data/
+*.csv
+*.xlsx
+*.json
+*.zip
+*.tar.gz
+
+# ==============================
+# Logs & Monitoring
+# ==============================
+logs/
+*.log
+tensorboard/
+runs/
+
+# ==============================
+# Jupyter Notebooks
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Environment Variables
+# ==============================
+.env
+.env.*
